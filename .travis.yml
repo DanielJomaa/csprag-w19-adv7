@@ -9,6 +9,5 @@ install:
 # command to run tests
 script:
   - pytest
-  - python setup.py install
 after_success:
   - coveralls
